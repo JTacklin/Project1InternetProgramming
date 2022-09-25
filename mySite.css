@@ -1,0 +1,175 @@
+#Title {
+    color:#00246b;
+    font-family: myFirstFont;
+ 
+ }
+ 
+ #profile {
+   width: 400px;
+   height: auto;
+ 
+ }
+ 
+ .topnav {
+   background-color: #d9d9d9;
+   overflow: hidden;
+ }
+ 
+ /* Style the links inside the navigation bar */
+ .topnav a {
+   float: left;
+   color: black;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+   font-family: myFirstFont;
+ }
+ 
+ /* Change the color of links on hover */
+ .topnav a:hover {
+   background-color: #00246b;
+   color: black;
+ }
+ 
+ /* Add a color to the active/current link */
+ .topnav a.active {
+   background-color: grey;
+   color: white;
+ }
+ 
+ @font-face {
+   font-family: myFirstFont;
+   src: url("../Project1InternetProgramming/friz-quadrata-std-medium-5870338ec7ef8.otf") format("opentype");
+ }
+ 
+ #topnav {
+   font-family: myFirstFont;
+ }
+ 
+ #checkbockinline {
+         columns: 2;
+         -webkit-columns: 2;
+         -moz-columns: 2;
+ }
+
+ #table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: horizontal;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+#Course{
+
+    color:#DAD870;
+}
+
+#Name{
+
+    color:#FFCD58;
+}
+
+#Days{
+    color:#FF9636;
+
+}
+
+#Time{
+
+    color:#FF5C4D;
+}
+
+li.c {list-style-type: decimal;}
+
+li.a {list-style-type: upper-latin;}
+
+
+
+
+  input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: green;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid grey;
+}
+
+input[type='checkbox']:after {
+    width: 10px;
+    height: 10px;
+   
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='checkbox']:checked:after {
+    width: 10px;
+    height: 10px;
+    
+    position: relative;
+    background-color: blue;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid grey;
+}
+
+
+#aboutMe{
+    color:#242628;
+}
+
+#hobbies{
+color:#ef3340;
+
+}
+
+#education{
+color:#ffbd20;
+
+}
+
+#bold{
+
+    font-weight: bold;
+}
+
+#italic{
+
+    font-style:italic ;
+}
+
+
+
+  
